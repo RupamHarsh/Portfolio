@@ -17,7 +17,7 @@ const styles = {
   width:'80vw',
   display: 'flex',
   flexDirection:'column',
-  alignItems: 'center'
+  alignItems: 'center',
   },
   dis : {
     color: 'white',
