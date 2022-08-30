@@ -32,7 +32,7 @@ let navigate = useNavigate();
     <div style={styles.HeaderDiv}>
         <Button variant="text" style={styles.buttons} onClick={()=>{navigate('/')}}>Home</Button>
         <Button variant="text" style={styles.buttons} onClick={()=>{navigate('/skills')}}>Skills</Button>
-        <Button variant="text" style={styles.buttons}>Projects</Button>
+        <Button variant="text" style={styles.buttons} onClick={()=>{navigate('/projects')}}>Projects</Button>
         <Button variant="text" style={styles.buttons}>About Me</Button>
         </div>
   )

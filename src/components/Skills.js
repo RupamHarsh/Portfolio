@@ -7,6 +7,7 @@ import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import { Button } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
+import coding from './images/coding.png';
 
 const Skills = () => {
 const styles = {
@@ -107,7 +108,7 @@ let navigate = useNavigate();
       </div>
     </div>
     <div>
-      {<TerminalIcon style={{paddingLeft:'7vw'}} sx={{color:'white',fontSize:'15rem'}}/>}
+      {<TerminalIcon  style={{paddingLeft:'7vw'}} sx={{color:'white',fontSize:'15rem'}}/>}
     </div>
     </div>
     <div style={{display:'flex',flexDirection:'row'}}>
