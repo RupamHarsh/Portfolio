@@ -1,0 +1,12 @@
+.skillMain{
+    border-top: 5px solid #050c11;
+    background-image: url('./images/bg9.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: fixed; 
+    /* display: block;
+    display:flex;
+    flex-direction:column;
+    align-items:center; */
+    overflow: hidden;
+}
