@@ -1,10 +1,10 @@
-import Header from './components/Header'
-import MainPage from './components/MainPage';
-import Skills from './components/Skills';
-import { BrowserRouter as Router,Routes,Route, Link } from 'react-router-dom';
-import Project from './components/Projects';
-import About from './components/About';
-import Error from './components/Error';
+import Header from './components/Header/Header'
+import MainPage from './components/MainPage/MainPage';
+import Skills from './components/SkillsPage/Skills';
+import { BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+import Project from './components/ProjectPage/Projects';
+import About from './components/AboutPage/About';
+import Error from './components/ErrorPage/Error';
 import './App.css';
 
 function App() {

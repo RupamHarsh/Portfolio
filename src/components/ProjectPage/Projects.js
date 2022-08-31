@@ -1,9 +1,9 @@
 import { Button, Card, CardActions, CardContent, CardMedia, Typography } from '@mui/material'
 import React from 'react'
 import './Project.css'
-import FollowUp from './images/FollowUp.jpg'
-import DrumKit from './images/DrumKit.jpg'
-import Dice from './images/Dice.jpg'
+import FollowUp from '../images/FollowUp.jpg'
+import DrumKit from '../images/DrumKit.jpg'
+import Dice from '../images/Dice.jpg'
 import { useNavigate } from 'react-router-dom';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
