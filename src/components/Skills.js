@@ -7,7 +7,6 @@ import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import { Button } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import coding from './images/coding.png';
 
 const Skills = () => {
 const styles = {
@@ -38,7 +37,7 @@ const styles = {
     height: '150px',
     width: '300px',
     marginBottom: '3rem',
-    marginLeft:'10rem',
+    marginLeft:'5rem',
     fontSize: "1.5rem",
     backgroundColor: "rgba(255, 255, 255, 0.05)",
     backdropFilter: "blur(3px)",
@@ -83,7 +82,7 @@ let navigate = useNavigate();
         <Button disableElevation={true} onClick={()=>{navigate('/')}} style={{height:'100px',width:'100px'}} startIcon={<KeyboardArrowLeftIcon sx={{ color:'aqua',fontSize:'5rem !important'}}/>}/>
       </div>
     <div  style={styles.page}>
-    <div style={{display:'flex',flexDirection:'row'}}>
+    <div style={{display:'flex',flexDirection:'row',gap: '10rem'}}>
     <div style={styles.dis}>
       <div style={styles.divHeading}>Technical Skills</div>
       <hr style={{marginLeft:'10px',marginRight:'10px'}}/>
@@ -111,7 +110,7 @@ let navigate = useNavigate();
       {<TerminalIcon  style={{paddingLeft:'7vw'}} sx={{color:'white',fontSize:'15rem'}}/>}
     </div>
     </div>
-    <div style={{display:'flex',flexDirection:'row'}}>
+    <div style={{display:'flex',flexDirection:'row',gap: '10rem'}}>
     <div>
       {<AutoStoriesIcon style={{paddingLeft:'7vw',position:'relative',bottom:'30px'}} sx={{color:'white',fontSize:'15rem'}} />}
     </div>
@@ -130,7 +129,7 @@ let navigate = useNavigate();
       </div>
     </div>
     </div>
-    <div style={{display:'flex',flexDirection:'row'}}>
+    <div style={{display:'flex',flexDirection:'row',gap: '10rem'}}>
     <div style={styles.dis3}>
       <div style={styles.divHeading}>Certifications</div>
       <hr style={{marginLeft:'10px',marginRight:'10px'}}/>
