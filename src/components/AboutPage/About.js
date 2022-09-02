@@ -29,24 +29,24 @@ const About = () => {
       left:'2rem'
     },
     content : {
-      width:'52vw',
-      height:'8vw',
+      width:'80vw',
+      height:'6vw',
       backgroundColor: "rgba(255, 255, 255, 0.05)",
       backdropFilter: "blur(5px)",
       overflow: 'hidden',
-      marginTop: '23rem',
-      marginLeft:'2rem',
+      marginTop: '30rem',
+      marginLeft:'10rem',
       color:'white',
       padding:'1rem'
     },
     content2 : {
-      width:'30vw',
+      width:'32vw',
       height:'7vw',
       backgroundColor: "rgba(255, 255, 255, 0.05)",
       backdropFilter: "blur(5px)",
       overflow: 'hidden',
       color:'white',
-      display:'block',marginTop:'2rem',marginLeft:'2rem'
+      display:'block',marginTop:'2rem',marginLeft:'34rem',
     },
   }
 
