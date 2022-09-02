@@ -18,73 +18,72 @@
 }
 
 .astronaut{
-    height:200px;
-    width:200px;
+    width:300px;
     position: absolute;
-    right: 28rem;
-    top: 7rem;
+    right: 20rem;
+    top: 6rem;
     animation: updown 5s linear infinite;
 }
 
 @keyframes updown {
     0% {
-        transform: translateY(-10px);
-        /* transform: translateX(-20px); */
+        transform: translateY(-8px);
+        transform: translateX(-8px);
     }
     5%{
-        /* transform: translateY(-18px); */
+        transform: translateY(-6px);
         transform: translateX(-6px);
     }
     10%{
         transform: translateY(-6px);
-        /* transform: translateX(-12px); */
+        transform: translateX(-6px);
     }
     20%{
-        /* transform: translateY(-4px); */
+        transform: translateY(-3px);
         transform: translateX(-3px);
     }
     30%{
-        transform: translateY(-2px);
-        /* transform: translateX(6px); */
+        transform: translateY(-1px);
+        transform: translateX(-1px);
     }
     40%{
-        /* transform: translateY(14px); */
+        transform: translateY(0px);
         transform: translateX(0px);
     }
     45%{
-        transform: translateY(0px);
-        /* transform: translateX(20px); */
+        transform: translateY(px);
+        transform: translateX(5px);
     }
     50%{
-        transform: translateY(4px);
-        /* transform: translateX(20px); */
+        transform: translateY(2px);
+        transform: translateX(0px);
     }
     55%{
         transform: translateY(0px);
-        /* transform: translateX(20px); */
+        transform: translateX(0px);
     }
     60%{
-        /* transform: translateY(14px); */
-        transform: translateX(-3px);
+        transform: translateY(-1px);
+        transform: translateX(-1px);
     }
     70%{
-        transform: translateY(-2px);
-        /* transform: translateX(6px); */
+        transform: translateY(-3px);
+        transform: translateX(-3px);
     }
     80%{
-        /* transform: translateY(-4px); */
-        transform: translateX(-4px);
+        transform: translateY(-6px);
+        transform: translateX(-6px);
     }
     90%{
-        transform: translateY(-6px);
-        /* transform: translateX(-12px); */
+        transform: translateY(-7px);
+        transform: translateX(-7px);
     }
     95%{
-        /* transform: translateY(-18px); */
-        transform: translateX(-6px);
+        transform: translateY(-8px);
+        transform: translateX(-8px);
     }
     100%{
         transform: translateY(-10px);
-        /* transform: translateX(-20px); */
+        transform: translateX(-10px);
     }
 }
