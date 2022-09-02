@@ -22,7 +22,7 @@
     position: absolute;
     right: 20rem;
     top: 6rem;
-    animation: updown 5s linear infinite;
+    animation: updown 3s linear infinite;
 }
 
 @keyframes updown {

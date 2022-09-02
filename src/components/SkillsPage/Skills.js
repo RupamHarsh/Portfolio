@@ -11,7 +11,7 @@ import { useNavigate } from 'react-router-dom';
 const Skills = () => {
 const styles = {
   page : {
-  paddingTop: "50px",
+  paddingTop: "40px",
   marginLeft:'7vw',
   height: "99.3vh",
   width:'80vw',
@@ -82,7 +82,7 @@ let navigate = useNavigate();
         <Button disableElevation={true} onClick={()=>{navigate('/')}} style={{height:'100px',width:'100px'}} startIcon={<KeyboardArrowLeftIcon sx={{ color:'aqua',fontSize:'5rem !important'}}/>}/>
       </div>
     <div  style={styles.page}>
-    <div style={{display:'flex',flexDirection:'row',gap: '10rem'}}>
+    <div style={{display:'flex',flexDirection:'row',gap: '10rem',height:'15rem'}}>
     <div style={styles.dis}>
       <div style={styles.divHeading}>Technical Skills</div>
       <hr style={{marginLeft:'10px',marginRight:'10px'}}/>

@@ -30,10 +30,10 @@ let navigate = useNavigate();
   return (
     
     <div style={styles.HeaderDiv}>
-        <Button variant="text" style={styles.buttons} onClick={()=>{navigate('/')}}>Home</Button>
-        <Button variant="text" style={styles.buttons} onClick={()=>{navigate('/skills')}}>Skills</Button>
-        <Button variant="text" style={styles.buttons} onClick={()=>{navigate('/projects')}}>Projects</Button>
-        <Button variant="text" style={styles.buttons} onClick={()=>{navigate('/about')}}>About Me</Button>
+        <Button id="top" variant="text" style={styles.buttons} onClick={()=>{navigate('/')}}>Home</Button>
+        <Button id="top" variant="text" style={styles.buttons} onClick={()=>{navigate('/skills')}}>Skills</Button>
+        <Button id="top" variant="text" style={styles.buttons} onClick={()=>{navigate('/projects')}}>Projects</Button>
+        <Button id="top" variant="text" style={styles.buttons} onClick={()=>{navigate('/about')}}>About Me</Button>
         </div>
   )
 }

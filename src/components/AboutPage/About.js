@@ -11,7 +11,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 import InfoIcon from '@mui/icons-material/Info';
-
+import Contact from './Contact'
 
 const theme = createTheme({
   palette:{
@@ -55,10 +55,13 @@ const About = () => {
     { icon: <GitHubIcon />, name: 'GitHub', url:'https://github.com/RupamHarsh' },
     { icon: <LinkedInIcon />, name: 'LinkedIn', url:'https://www.linkedin.com/in/rupam-harsh-458b53228/' },
     { icon: <EmailIcon />, name: 'Mail',url:'mailto: harshrupam@19092000@gmail.com' },
-    { icon: <InstagramIcon />, name: 'Contact',url:'https://www.instagram.com/rishu_yy/'},
+    { icon: <InstagramIcon />, name: 'Instagram',url:'https://www.instagram.com/rishu_yy/'},
     { icon: <InfoIcon />, name: 'Resume',url:'https://docs.google.com/document/d/1IlH7MqgtF833Hm2BQkvnIId0owhKReuJAEKmN562Aps/edit?usp=sharing'},
     
   ];
+
+  const [openPopup,setOpenPopup] = React.useState(false);
+
   return (
     <ThemeProvider theme={theme}>
     <div className='aboutp'>
@@ -81,7 +84,7 @@ const About = () => {
           </Typography>
         <Button color='primary' style={{marginRight:'3rem'}} variant='contained' startIcon={<ExitToAppIcon/>}
          href='https://docs.google.com/document/d/1IlH7MqgtF833Hm2BQkvnIId0owhKReuJAEKmN562Aps/edit?usp=sharing' target='_blank' >Resume</Button>
-        <Button variant='contained'>Contact Me</Button>
+        <Button variant='contained' onClick={()=>{setOpenPopup(true)}}>Contact Me</Button>
         </div>
         </div>
         <SpeedDial
@@ -102,6 +105,9 @@ const About = () => {
         ))}
       </SpeedDial>
     </div>
+    <Contact openPopup={openPopup}
+    setOpenPopup={setOpenPopup}/>
+
     </ThemeProvider>
   )
 }
