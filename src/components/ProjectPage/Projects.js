@@ -68,7 +68,7 @@ const Projects = () => {
         <br/>          
         </Typography>
       </CardContent>
-      <CardActions style={{paddingTop:'2.8rem'}}>
+      <CardActions style={{paddingTop:'1.8rem'}}>
         <Button size="small" href='https://rupamharsh.github.io/Drum_kit/' target='_blank' color='primary'>Play</Button>
         <Button size="small" href='https://github.com/RupamHarsh/Drum_kit' target='_blank'>Source Code</Button>
       </CardActions>
