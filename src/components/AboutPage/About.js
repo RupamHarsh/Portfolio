@@ -37,7 +37,8 @@ const About = () => {
       marginTop: '30rem',
       marginLeft:'10rem',
       color:'white',
-      padding:'1rem'
+      padding:'1rem',
+      fontFamily:'Quicksand'
     },
     content2 : {
       width:'32vw',
@@ -47,6 +48,8 @@ const About = () => {
       overflow: 'hidden',
       color:'white',
       display:'block',marginTop:'2rem',marginLeft:'34rem',
+      fontFamily:'Quicksand'
+
     },
   }
 

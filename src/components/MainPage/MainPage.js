@@ -10,14 +10,14 @@ const MainPage = () => {
             color: 'white',
             paddingTop: '200px',
             fontSize: '3rem',
-            fontFamily: 'Arial',
+            fontFamily: 'Quicksand',
             fontWeight: '400'
         },
         welcometext : {
             paddingTop: '60px',
             fontSize: '2rem',
             color: 'white',
-            fontFamily: 'Arial',
+            fontFamily: 'Quicksand',
             fontWeight: '200'
         },
         buttonStart : {
@@ -25,7 +25,7 @@ const MainPage = () => {
             height:"100px",
             width: '300px',
             color: '#00ffac',
-            fontFamily: 'Source Code Pro',
+            fontFamily: 'Quicksand',
             fontSize: '2rem',
             borderRadius: '25px',
             borderColor: '#00ffac'

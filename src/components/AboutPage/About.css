@@ -87,3 +87,6 @@
         transform: translateX(-10px);
     }
 }
+body{
+    font-family: Quicksand;
+}

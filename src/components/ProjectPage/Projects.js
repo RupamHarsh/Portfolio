@@ -30,7 +30,7 @@ const Projects = () => {
       </div>
     <div style={styles.maincontainer}>
       <div style={styles.page}>
-      <Card sx={{ maxWidth: 345,height: 380}}>
+      <Card sx={{ maxWidth: 345,height: 380,fontFamily : 'Quciksand'}}>
       <CardMedia
         component="img"
         height="200"
