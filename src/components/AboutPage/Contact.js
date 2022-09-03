@@ -57,16 +57,16 @@ const Contact = (props) => {
             </DialogTitle>
             <DialogContent>
                 <div style={styles.textFields}>
-                    <Typography style={{fontSize:'1rem',fontWeight:'600'}}/>
+                    <Typography style={{fontSize:'1rem',fontWeight:'600'}}>Full Name </Typography>
                         <TextField  fullWidth
                                     size='small'
                                     style={{marginBottom:'1rem'}}
-                                    >FullName</TextField>
+                                    />
 
-                    <Typography  style={{fontSize:'1rem',fontWeight:'600'}}/>
+                    <Typography  style={{fontSize:'1rem',fontWeight:'600'}}>Email</Typography>
                         <TextField size='small'  fullWidth type='email' style={{marginBottom:'1rem'}}>Email Address</TextField>
 
-                    <Typography style={{fontSize:'1rem',fontWeight:'600'}}/>
+                    <Typography style={{fontSize:'1rem',fontWeight:'600'}}>Your Message</Typography>
                         <TextField size='small' multiline fullWidth type='text' style={{marginBottom:'1rem',overflow:'auto'}}>FullName</TextField></div>
             </DialogContent>
             <DialogActions>
